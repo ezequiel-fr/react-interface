@@ -1,4 +1,3 @@
-import React from 'react';
 import { getCookie } from '../../controllers/cookies';
 
 import Lang from '../components/Lang';
@@ -24,6 +23,7 @@ function App() {
                     {lang['learn-react']}
                 </a>
             </header>
+
             <Lang />
         </div>
     );
